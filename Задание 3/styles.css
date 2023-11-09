@@ -1,0 +1,52 @@
+.button {
+    background: #ADD8E6;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: black;
+    height: 51px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.form__item {
+    display: flex;
+}
+
+.form__input {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: black;
+    border: 5px solid #ADD8E6;
+    padding: 10px 15px;
+    display: inline-block;
+    width: 231.01px;
+    margin-right: 15px;
+}
+
+.input::placeholder {
+    color: #363636;
+}
+
+.send_button {
+    margin-right: 15px;
+}
+
+#chat {
+    border: 5px solid #ADD8E6;
+    width: 557px;
+    margin-top: 5px;
+    height: 525px;
+}
